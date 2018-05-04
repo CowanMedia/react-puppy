@@ -1,6 +1,7 @@
 {
-	"root": "dist/",
+	"root": "build/",
 	"routes": {
-		"/**": "index.html"
-	}
+		"/*.html": "index.html"
+	},
+	"encoding": "US-ASCII"
 }
