@@ -11,12 +11,10 @@
   },
   "scripts": {
     "start": "node index.js",
-    "build": "babel src -d lib",
+    "build": "react-scripts build && cp -r build/* ../client/",
     "test": "react-scripts test --env=jsdom",
-    "eject": "react-scripts eject"
-  },
-  "devDependencies": {
-    "babel-cli": "^6.26.0",
-    "babel-preset-react": "^6.24.1"
+    "eject": "react-scripts eject",
+    "heroku-postbuild": "node scripts/build.js"
   }
+  
 }
