@@ -1,7 +1,0 @@
-{
-	"root": "build/",
-	"routes": {
-		"/*.html": "index.html"
-	},
-	"encoding": "US-ASCII"
-}
